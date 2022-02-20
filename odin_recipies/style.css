@@ -5,18 +5,45 @@
     margin-right: auto;
 }
 
-h1 {
+h1#main-header {
     margin-left: auto;
     margin-right: auto;
     display: block;
     text-align: center;
 }
 
-.receipt-block {
+.recipies-header{
+    margin-left: 50px;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+    color: rgb(175, 86, 27);
+}
+
+.receipt-list-block,
+.ingredients-block,
+.receipt-steps {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.receipt-description {
+    margin-left: 50px;
+}
+
+.credits {
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     text-align: center;
-    list-style-position: inside;
+}
+
+.end-horizontal {
+    width: 50%;
+    margin: 0 auto;
 }
 
