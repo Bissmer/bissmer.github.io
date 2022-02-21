@@ -10,6 +10,7 @@ h1#main-header {
     margin-right: auto;
     display: block;
     text-align: center;
+    color:rgb(175, 86, 27);
 }
 
 .recipies-header{
@@ -54,7 +55,7 @@ ol>li {
     list-style-type:none;
     counter-increment:item;
   }
-  
+
 ol>li:before {
     display:inline-block;
     width:1.5em;
