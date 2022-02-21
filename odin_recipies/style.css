@@ -43,6 +43,10 @@ h1#main-header {
     text-align: center;
 }
 
+.credits > #small-credits {
+    font-size: 14px;
+}
+
 .end-horizontal {
     width: 50%;
     margin: 0 auto;
@@ -63,4 +67,8 @@ ol>li:before {
     font-weight:bold;
     text-align:right;
     content:counter(item) ".";
+  }
+
+  #bold-text {
+      font-weight: bold;
   }
