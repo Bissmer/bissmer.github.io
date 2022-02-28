@@ -44,7 +44,7 @@ p.blog-summary {
 }
 
 .subheader {
-    color: rgb(184, 154, 21);
+    color: rgb(196, 148, 18);
 }
 
 .break-line {
@@ -63,7 +63,29 @@ p.blog-summary {
     background-color: azure;
 }
 
+.content-list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    padding-inline-start: 40px;
+}
+
 .about {
     height: 200px;
     background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+a:hover,
+a:visited:hover {
+    color: aqua;
 }
