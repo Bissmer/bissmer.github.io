@@ -1,1 +1,1 @@
-#A web page made for Odin Project training
+#Bissmer's personal blog template
